@@ -14,7 +14,7 @@ const LandingPageCTA = () => {
           </h2>
           <p className="mx-auto mb-10 max-w-[600px] text-primary-foreground/80 md:text-xl">
             Join over 500,000 users who are already managing their money smarter
-            with FinAI.
+            with PocketMentor.
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button

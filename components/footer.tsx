@@ -11,7 +11,9 @@ const Footer = () => {
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
                 <Zap className="h-5 w-5" />
               </div>
-              <span className="text-lg font-bold tracking-tight">FinAI</span>
+              <span className="text-lg font-bold tracking-tight">
+                PocketMentor
+              </span>
             </div>
             <p className="text-sm text-muted-foreground max-w-[250px]">
               The intelligent finance assistant that helps you track, save, and
@@ -137,7 +139,8 @@ const Footer = () => {
         </div>
         <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
           <p>
-            &copy; {new Date().getFullYear()} FinAI Inc. All rights reserved.
+            &copy; {new Date().getFullYear()} PocketMentor Inc. All rights
+            reserved.
           </p>
         </div>
       </div>
