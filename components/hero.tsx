@@ -22,18 +22,17 @@ const Hero = () => {
                 New: AI Investment Insights
               </div>
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-balance">
-                Master Your Money with{" "}
-                <span className="text-primary">AI Precision</span>
+                The AI Finance Assistant in Your Pocket.
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl lg:mx-0 text-balance">
-                The intelligent finance assistant that tracks, analyzes, and
-                optimizes your wealth in real-time. Stop guessing, start
-                growing.
+                Stop guessing where your money goes. PocketMentor analyzes your
+                cash flow every week and tells you exactly what to invest and
+                what to save.
               </p>
             </div>
             <div className="flex flex-col gap-3 min-[400px]:flex-row justify-center lg:justify-start">
               <Button size="lg" className="rounded-full px-8 h-12 text-base">
-                Start Free Trial
+                Get My Weekly Summary
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
               <Button
@@ -41,7 +40,7 @@ const Hero = () => {
                 size="lg"
                 className="rounded-full px-8 h-12 text-base"
               >
-                View Demo
+                See How It Works
               </Button>
             </div>
             <div className="flex items-center justify-center lg:justify-start gap-4 text-sm text-muted-foreground">
