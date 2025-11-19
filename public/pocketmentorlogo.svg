@@ -1,0 +1,43 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definition of gradients for a premium look -->
+  <defs>
+    <linearGradient id="coinGradient" x1="256" y1="100" x2="256" y2="460" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E3A8A"/> <!-- Dark Blue -->
+      <stop offset="100%" stop-color="#0F172A"/> <!-- Darker Navy -->
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="150" y1="150" x2="362" y2="362" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FCD34D"/> <!-- Light Gold -->
+      <stop offset="100%" stop-color="#D97706"/> <!-- Dark Gold -->
+    </linearGradient>
+  </defs>
+
+  <!-- The Coin Base -->
+  <circle cx="256" cy="280" r="180" fill="url(#coinGradient)" stroke="#D97706" stroke-width="8"/>
+  
+  <!-- Inner Ring for Detail -->
+  <circle cx="256" cy="280" r="160" fill="none" stroke="#3B82F6" stroke-width="2" opacity="0.3"/>
+
+  <!-- The Dollar Sign ($) - Stylized for Finance -->
+  <path d="M256 190V170 M256 390V370" stroke="url(#goldGradient)" stroke-width="24" stroke-linecap="round"/>
+  <text x="256" y="375" font-family="Arial, sans-serif" font-size="220" font-weight="bold" fill="url(#goldGradient)" text-anchor="middle">
+    $
+  </text>
+
+  <!-- The "Mentor" Element: Graduation Cap -->
+  <!-- This sits on top of the coin, symbolizing the 'Advisor' aspect -->
+  <g transform="translate(156, 60) scale(0.8)">
+    <!-- Cap Top (Mortarboard) -->
+    <path d="M125 0L250 62.5L125 125L0 62.5L125 0Z" fill="#38BDF8"/>
+    <!-- Cap Base -->
+    <path d="M250 62.5V130C250 150 200 165 125 165C50 165 0 150 0 130V62.5" fill="none"/> <!-- Hidden/Implicit -->
+    <path d="M200 88V125C200 145 166.5 160 125 160C83.5 160 50 145 50 125V88" fill="#0EA5E9"/>
+    
+    <!-- Tassel -->
+    <circle cx="125" cy="62.5" r="8" fill="#FCD34D"/>
+    <path d="M125 62.5L210 110V160" stroke="#FCD34D" stroke-width="6" fill="none"/>
+    <circle cx="210" cy="165" r="8" fill="#FCD34D"/>
+  </g>
+
+  <!-- Upward Trend Arrow (Subtle integration showing growth) -->
+  <path d="M330 330L390 270M390 270H340M390 270V320" stroke="#10B981" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
