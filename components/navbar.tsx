@@ -40,13 +40,13 @@ const Navbar = () => {
         </nav>
         <div className="flex items-center gap-4">
           <Link
-            href="/login"
+            href="/sign-in"
             className="hidden text-sm font-medium text-muted-foreground hover:text-foreground sm:block"
           >
             Log in
           </Link>
-          <Button size="sm" className="rounded-full px-6">
-            Get Started
+          <Button size="sm" className="rounded-full px-6" asChild>
+            <Link href="/sign-up">Get Started</Link>
           </Button>
         </div>
       </div>
